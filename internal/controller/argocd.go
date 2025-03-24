@@ -23,6 +23,8 @@ import (
 )
 
 // EnsureArgoCD ensures ArgoCD instance
+//
+//revive:disable-next-line
 func (r *PaasReconciler) EnsureArgoCD(
 	ctx context.Context,
 	paas *v1alpha1.Paas,

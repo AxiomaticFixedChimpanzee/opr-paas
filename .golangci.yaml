@@ -68,7 +68,6 @@ linters-settings:
         disabled: true
       - name: context-as-argument
       - name: cyclomatic
-        disabled: true
       - name: dot-imports
         arguments:
           - allowedPackages:
